@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.nav-links a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+}
+
+.btn-outline {
+    padding: 8px 14px;
+    border: 1px solid #0056b3;
+    background: transparent;
+    color: #0056b3;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.login {
+    text-decoration: none;
+    color: #333;
+}
+
+.doctor {
+    height: 85vh;
+    background: url("image.png") center/cover no-repeat;
+    position: relative;
+}
+
+.doctor-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+}
+
+.hero-overlay h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-overlay p {
+    font-size: 18px;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    width: fit-content;
+    padding: 12px 20px;
+    background-color: #0056b3;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 20px 40px;
+    text-align: center;
+    color: #777;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #0056b3;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
