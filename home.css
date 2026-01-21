@@ -68,12 +68,12 @@
     padding-left: 60px;
 }
 
-.hero-overlay h1 {
+.doctor-overlay h1 {
     font-size: 48px;
     margin-bottom: 10px;
 }
 
-.hero-overlay p {
+.doctor-overlay p {
     font-size: 18px;
     max-width: 500px;
     margin-bottom: 20px;
@@ -104,3 +104,4 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
